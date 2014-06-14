@@ -6,4 +6,8 @@ class PagesController < ApplicationController
   def about
     #This is where stuff about the about page goes.
   end
+
+  def team
+    #This is where stuff about the team page goes.
+  end
 end

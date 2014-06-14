@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'pages#home'
   get 'about' => 'pages#about' # creates about_path for linking
-
+  get 'team' => 'pages#team' # creates team_path for linking
 
   # This was added when we ran: $ rails generate controller pages home
   # get 'pages/home'
