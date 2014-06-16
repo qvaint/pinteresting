@@ -37,4 +37,7 @@ Rails.application.configure do
 
   #Required for Heroku
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
+
+  #Required for Paperclip to find Image Magick
+  Paperclip.options[:command_path] = "/opt/ImageMagick/bin/"
 end
