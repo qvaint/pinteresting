@@ -18,6 +18,7 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # User authentication and login
@@ -26,6 +27,9 @@ gem 'devise', '~> 3.2.4'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 # Amazon S3 to store images because Heroku cant
 gem 'aws-sdk', '~> 1.20.0'
+# JQuery-Turbolinks and Masonry are to make the page dynamically resize and look like Pinterest
+gem 'masonry-rails', '~> 0.2.0'
+
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
